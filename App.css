@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Mali:200,400,600i&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 30em;
+  margin: 0 auto;
+  height: 99vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Mali', cursive;
+  transform: translateZ(0);
+  
+}
+
+.App > * {
+  flex: 1 1 auto;
+}
+
+.App__etusivu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+}

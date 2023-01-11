@@ -1,0 +1,63 @@
+.ruokakortti {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em 0.0em 1em;
+    border: 2px solid #BADDFE;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 15px;
+    background-color:white;
+    box-shadow: rgba(0,0,0,1) 0px 4px 2px;
+    opacity: 0.8;
+  
+  }
+
+  .ruokakortti__rivi {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.35em;   
+  }
+
+  .ruokakortti > div {
+    flex: 1 1 auto; 
+  }
+
+  .ruokakortti__kalorit, .ruokakortti__ruoka {
+    font-weight: bold;
+  }
+
+  .ruokakortti__paivamaara {
+    font-size: 65%;
+    padding-left: 0.6em;
+    padding-bottom: 0.3em;
+  }
+
+  .ruokakortti__yhteensa, .ruokakortti__ruokalaji, .ruokakortti__juoma  {
+    font-size: 85%;
+    color: #666;
+    padding-top:  0.3em;
+  }
+
+.ruokakortti__nappi1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.ruokakortti__nappi {
+    max-width: 2em;
+    max-height: 1em;
+    display: none;
+    justify-content: center;
+    align-items: center;  
+  }
+
+.ruokakortti:hover .ruokakortti__nappi {
+  display: flex;
+  }
+
+.ruokakortti__nappi a {
+  color: blue;
+  }

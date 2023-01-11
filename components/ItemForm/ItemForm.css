@@ -1,0 +1,43 @@
+
+.itemform__row {
+    display: flex;   
+}
+
+.itemform__row > div {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5em 0.3em;
+    
+}
+
+.itemform input, .itemform select {
+    padding: 0.5em;
+    border: 1px solid #999;
+    border-radius: 0.3em;
+    font-size: 1.2em;
+    font-family: 'Mali', cursive;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.itemform label {
+    font-size: 0.8em;
+    margin-bottom: 0.2em;  
+}
+
+.itemform input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+.itemform input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+.itemform__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

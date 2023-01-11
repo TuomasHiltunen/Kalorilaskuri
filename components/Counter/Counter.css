@@ -1,0 +1,53 @@
+.counterform {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 15px;
+  background-color:white;
+  
+}
+
+.counterform__radio {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1em;
+}
+
+.counterform__tiedot {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1em;
+  flex: 1 1 auto; 
+}
+
+.counterform__tiedot input {
+  border:none;
+ }
+
+ .counterform__submit {
+  margin-bottom: 0.2em;
+ }
+
+ .btn {
+  border-radius: 5px;
+ }
+
+.counterform__kalorit {
+  padding-left: 2.2em;
+}
+
+.counterform__aktiivisuus {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1em;
+  padding-left: 2.3em;
+  padding-bottom: 1em;
+}
+
+.counterform__aktiivisuus  > div{
+  display: flex;
+  align-items: baseline;
+  
+}

@@ -1,0 +1,22 @@
+.content {
+    overflow-y: scroll;
+    background-image:url(https://m.media-amazon.com/images/M/MV5BMWI2MmQyNDUtMzk3MC00MjZiLTgwZDktZjYyMWI1MzJmMDY2XkEyXkFqcGdeQXVyODM5Mjc0MzA@._V1_.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-overflow-scrolling: touch; 
+    position: relative;
+    scrollbar-width: thin;
+    scrollbar-color: red rgba(0, 0, 0, 0.1);
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  
+  ::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.0);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.1);
+  }
